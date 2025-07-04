@@ -1,15 +1,17 @@
 import { useState } from 'react'
 import './index.css';
-
+import Card from "./components/Card";
 import './App.css'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
+
   return (
     <>
-      <h1 className='bg-green-400'>Tailwind Test</h1>
+     <Card username="shifa ltd" text="Wanna be indepent ans successful"/>
+     <Card username="hitesh ltd" />
     </>
   )
 }
