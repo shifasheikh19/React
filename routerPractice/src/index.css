@@ -1,0 +1,17 @@
+*{
+  padding:0;
+  margin:0;
+}
+nav{
+  display:flex;
+  gap:20px;
+  padding:20px;
+  background-color:black;
+  
+}
+a{
+  color:white;
+}
+.red{
+  color:purple;
+}
